@@ -20,6 +20,7 @@ int main()
 	{
 		atlag += b[i]; // ; hiányzik a sor végéről
 	}
+	std::cout << "összeg: " << atlag << std::endl;
 	atlag /= N_ELEMENTS;
 	std::cout << "Atlag: " << atlag << std::endl;
 	system("pause");
