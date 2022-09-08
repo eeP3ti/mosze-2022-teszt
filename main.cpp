@@ -15,7 +15,7 @@ int main()
 		std::cout << "Ertek:"<< b[i]<< "\n"; // nem ír ki semit értéknek
 	}
 	std::cout << "Atlag szamitasa: " << std::endl;
-	double atlag=0; // alap érték hozzáadása
+	double atlag=0; // alap érték hozzáadása és átállítom double-re hogy osztással ne legyen baj
 	for (int i = 0; i < N_ELEMENTS; i++) // for ciklus paramétereit ;-el illik elválasztani
 	{
 		atlag += b[i]; // ; hiányzik a sor végéről
